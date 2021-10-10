@@ -7,11 +7,6 @@ import runner.RunCucumberTest;
 
 public class CadastroSteps extends RunCucumberTest {
 
-    @Dado("^acesso o cadastro de usuário$")
-    public void acesso_o_cadastro_de_usuário()  {
-
-    }
-
     @Quando("^eu preeencho o formulário de cadastro$")
     public void eu_preeencho_o_formulário_de_cadastro()  {
 
