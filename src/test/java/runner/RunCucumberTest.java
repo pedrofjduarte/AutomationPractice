@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 @CucumberOptions(
         plugin = {},
         features = "src/test/resources/features",
-        tags = {""},
+        tags = {"@cadastro-sucesso"},
         glue = {"steps"}
 )
 public class RunCucumberTest {

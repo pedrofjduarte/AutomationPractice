@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.401 s <<< FAILURE! - in runner.RunCucumberTest
+runner.RunCucumberTest  Time elapsed: 0.401 s  <<< ERROR!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at runner.RunCucumberTest.start(RunCucumberTest.java:24)
+
+runner.RunCucumberTest  Time elapsed: 0.401 s  <<< ERROR!
+java.lang.NullPointerException
+	at runner.RunCucumberTest.stop(RunCucumberTest.java:29)
+
+runner.RunCucumberTest  Time elapsed: 0.401 s  <<< ERROR!
+cucumber.runtime.CucumberException: java.io.IOException: Failed to create directory C:\Users\pedro\Documents\projetos\automationpractice\target\reports\cucumberReport.json", "html:target
+Caused by: java.io.IOException: Failed to create directory C:\Users\pedro\Documents\projetos\automationpractice\target\reports\cucumberReport.json", "html:target
+
